@@ -71,10 +71,12 @@
     position: relative;
   }
 
-  .inicio img{
+  .inicio{
     width: 100vw;
-    /* background-size: 100vw; */
-  }
+    height: 83vh;
+    background-color: black;
+    background-image: url(black-mamba.png);
+    }
 
   .text {
     border-right: 2px solid rgb(255, 255, 255, 0.75) ;
