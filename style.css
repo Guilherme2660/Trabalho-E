@@ -94,7 +94,7 @@
   }
 
   .typing-animation {
-    animation: typing 5s steps(50) forwards, blink 5s;
+    animation: typing 5s steps(80) forwards, blink 5s;
   }
   
   @keyframes typing {
