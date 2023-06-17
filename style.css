@@ -3,6 +3,12 @@
     margin: 0;
     padding: 0;
   }
+  /* body {
+    background-image: url('imbituba-sc-praia-da-vila.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  } */
+  
   
   header {
     display: flex;
@@ -15,6 +21,10 @@
   .logo {
     cursor: pointer;
     margin-right: auto;
+  }
+
+  .logo img {
+    width: 50%;
   }
   
   .nav__links a, .contato{
@@ -54,3 +64,25 @@
     background-color: rgba(65, 57, 57, 0.8);
   }
   
+  .container1 img{
+    width: 100%;
+    background-size: cover;
+  }
+
+  .text {
+    position: absolute;
+    margin-bottom: 300px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    opacity: 0;
+    transition: opacity 1s, transform 1s;
+  }
+
+  .text.active {
+    bottom: 0;
+    opacity: 1;
+    transform: translateY(-50px);
+  }
