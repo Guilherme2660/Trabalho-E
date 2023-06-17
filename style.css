@@ -82,7 +82,7 @@
     border-right: 2px solid rgb(255, 255, 255, 0.75) ;
     max-width: 90vw;
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 0;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -180,7 +180,7 @@
     height: 100vh;
   }
 
-  .localiza h1{
+  .titulo1{
     grid-column: 2;
     grid-row: 1;
   }
@@ -188,4 +188,28 @@
   .mapa{
     grid-column: 2;
     grid-row: 2;
+  }
+
+  @media (max-width: 768px) {
+    .localiza{
+      display: flex;
+      align-items: center;
+    }
+
+    .mapa {
+      width: 90vw;
+    }
+  }
+
+  .titulo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .localiza img{
+    display: block;
+    margin: 0 auto;
   }
