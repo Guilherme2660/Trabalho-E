@@ -27,7 +27,7 @@
   }
 
   .logo img {
-    width: 50%;
+    width: 30%;
   }
   
   /* ================================== Nav ================================== */
@@ -57,12 +57,9 @@
   }
   
   .nav__links li a:hover {
-    color: rgba(65, 57, 57, 0.8);
+    color: #daa520;
   }
   
-  .contato:hover {
-    background-color: rgba(65, 57, 57, 0.8);
-  }
   /* ================================== /Nav ================================== */
   /* ================================== /Header ================================== */
   
@@ -73,7 +70,7 @@
 
   .inicio{
     width: 100vw;
-    height: 83vh;
+    height: 50vh;
     background-color: black;
     background-image: url(black-mamba.png);
     }
@@ -82,11 +79,11 @@
     border-right: 2px solid rgb(255, 255, 255, 0.75) ;
     max-width: 90vw;
     position: absolute;
-    top: 45%;
+    top: 25%;
     left: 0;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 4vw;
+    font-size: 3vw;
     color: white;
     opacity: 0;
     white-space: nowrap;
@@ -132,7 +129,7 @@
     height: 100vh;
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
-    background-image: url("amplo-salo.jpeg");
+    background-image: url("01_celina_e_camilo_20151129_0008.JPG");
     background-size: 100vw;
     background-repeat: no-repeat;
 }
