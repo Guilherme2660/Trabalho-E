@@ -173,43 +173,25 @@
 
   /* ================================== Mapa ================================== */
   .localiza{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
     align-items: center;
-    height: 100vh;
+    background-color: black;
+    background-image: url(black-mamba.png);
   }
 
-  .titulo1{
-    grid-column: 2;
-    grid-row: 1;
+  .localiza h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
   }
 
   .mapa{
-    grid-column: 2;
-    grid-row: 2;
-  }
-
-  @media (max-width: 768px) {
-    .localiza{
-      display: flex;
-      align-items: center;
-    }
-
-    .mapa {
-      width: 90vw;
-    }
-  }
-
-  .titulo2 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    grid-column: 1;
-    grid-row: 1;
+    width: 80%;
   }
 
-  .localiza img{
-    display: block;
-    margin: 0 auto;
-  }
