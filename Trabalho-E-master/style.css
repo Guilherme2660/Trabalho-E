@@ -10,9 +10,6 @@
 
   body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   /* ================================== Header ================================== */
@@ -75,7 +72,7 @@
     width: 100vw;
     height: 50vh;
     background-color: black;
-    background-image: url(black-mamba.png);
+    background-image: url(imagens/black-mamba.png);
     }
 
   .text {
@@ -132,7 +129,7 @@
     height: 100vh;
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
-    background-image: url("01_celina_e_camilo_20151129_0008.JPG");
+    background-image: url("imagens/01_celina_e_camilo_20151129_0008.JPG");
     background-size: 100vw;
     background-repeat: no-repeat;
 }
@@ -171,45 +168,49 @@
   }
   /* ================================== /Sobre ================================== */
 
-  /* ================================== Mapa ================================== */
+  /* ================================== Mapa e Redes ================================== */
   .localiza{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
     align-items: center;
-    height: 100vh;
   }
 
-  .titulo1{
-    grid-column: 2;
-    grid-row: 1;
+  .localiza h1{
+    margin: 30px;
+    color: white;
   }
 
   .mapa{
-    grid-column: 2;
-    grid-row: 2;
-  }
-
-  @media (max-width: 768px) {
-    .localiza{
-      display: flex;
-      align-items: center;
-    }
-
-    .mapa {
-      width: 90vw;
-    }
-  }
-
-  .titulo2 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    grid-column: 1;
-    grid-row: 1;
+    width: 80%;
   }
 
-  .localiza img{
-    display: block;
-    margin: 0 auto;
+  .redes{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+  }
+
+  .redes h1{
+    color: white;
+    margin: 30px;
+  }
+
+  .redes img{
+    margin: 10px;
+  }
+
+  .redes img:nth-child(5){
+    margin-top: 20px;
+  }
+
+  .lr{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: black;
+    background-image: url(imagens/black-mamba.png);
   }
