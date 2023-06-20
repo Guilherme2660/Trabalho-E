@@ -167,6 +167,53 @@
     background-color: rgba(0, 0, 0, 0.9);
   }
   /* ================================== /Sobre ================================== */
+  
+  .carousel .slides img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .slides {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel .slides {
+    white-space: nowrap;
+  }
+  
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    width: auto;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+  
 
   /* ================================== Mapa e Redes ================================== */
   .localiza{
@@ -213,4 +260,8 @@
     width: 100vw;
     background-color: black;
     background-image: url(imagens/black-mamba.png);
+  }
+  
+  @media screen {
+    
   }
