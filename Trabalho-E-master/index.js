@@ -1,9 +1,8 @@
 document.addEventListener('DOMContentLoaded', (event) => {
   const text = document.querySelector('.text');
   text.classList.add('active');
-  });
+});
 
-  
 const carousel = document.querySelector('.carousel');
 const slidesContainer = carousel.querySelector('.slides');
 const slides = Array.from(slidesContainer.children);
@@ -31,4 +30,3 @@ rightArrow.addEventListener('click', () => {
   currentIndex = (currentIndex + 1) % slides.length;
   moveSlides();
 });
-

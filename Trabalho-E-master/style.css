@@ -171,6 +171,7 @@
   .slide img {
     max-width: 100%;
     height: auto;
+    
   }
   
   .controls {
@@ -192,13 +193,13 @@
   }
   
   .left-arrow {
-    background-image: url('seta_esquerda.png');
+    background-image: url('imagens/seta_esquerda.png');
     background-repeat: no-repeat;
     background-position: center;
   }
   
   .right-arrow {
-    background-image: url('seta_direita.png');
+    background-image: url('imagens/seta_direita.png');
     background-repeat: no-repeat;
     background-position: center;
   }
