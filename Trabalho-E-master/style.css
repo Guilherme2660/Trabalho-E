@@ -224,15 +224,23 @@
   
 
   /* ================================== Mapa e Redes ================================== */
+  .lr{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: black;
+    background-image: url(imagens/black-mamba.png);
+  }
+
   .localiza{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 50%;
     align-items: center;
   }
 
   .localiza h1{
-    margin: 30px;
+    margin: 40px;
     color: white;
   }
 
@@ -245,29 +253,22 @@
   .redes{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 50%;
     align-items: center;
   }
 
   .redes h1{
     color: white;
-    margin: 30px;
+    margin: 40px;
+    margin-bottom: 20px;
   }
 
   .redes img{
-    margin: 10px;
+    margin: 15px;
   }
 
-  .redes img:nth-child(5){
-    margin-top: 20px;
-  }
-
-  .lr{
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    background-color: black;
-    background-image: url(imagens/black-mamba.png);
+  .redes a:last-child{
+    margin-top: 10px;
   }
   
   @media screen {
