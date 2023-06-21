@@ -32,5 +32,3 @@ rightArrow.addEventListener('click', () => {
   moveSlides();
 });
 
-// Inicializar a posição dos slides
-moveSlides();

@@ -22,9 +22,11 @@
     padding: 30px 10%;
     background-color: rgb(7, 6, 6);
   }
-  
+
+  main {
+    margin-top: 50px; /* Ajuste o valor de acordo com a altura do navbar */
+}
   .logo {
-    cursor: pointer;
     margin-right: auto;
   }
 
@@ -77,44 +79,23 @@
     background-image: url(imagens/black-mamba.png);
     }
 
-  .text {
-    border-right: 2px solid rgb(255, 255, 255, 0.75) ;
-    max-width: 90vw;
-    position: absolute;
-    top: 35%;
-    left: 0;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 3vw;
-    color: white;
-    opacity: 0;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-
-  .typing-animation {
-    animation: typing 5s steps(80) forwards, blink 5s;
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0;
+    .text {
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      width: 90%;
+      max-width: 800px;
+      position:absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-size: 16px;
+      color: white;
+      opacity: 0;
+      white-space: normal;
+      overflow: auto;
+      display: flex;
+      align-items: center;
     }
-    to {
-      width: 100%;
-    }
-  }
-  
-  @keyframes blink {
-    0% {
-      border-right-color: rgb(255, 255, 255, 0.75);
-    }
-
-    100% {
-      border-right-color: rgb(255, 255, 255, 0.75);
-
-    }
-  }
   
   .text.active {
     opacity: 1;
@@ -168,7 +149,7 @@
   .rectangle:hover {
     background-color: rgba(0, 0, 0, 0.9);
   }
-  /* ================================== /Sobre ================================== */
+  /* ================================== /carrosel ================================== */
   
   .carousel {
     position: relative;
@@ -270,6 +251,10 @@
     background-image: url(imagens/black-mamba.png);
   }
   
-  @media screen {
-    
+  @media screen and (max-width: 600px) {
+    .text {
+      width: 90%;
+      max-width: 400px;
+      font-size: 14px;
+    }
   }
