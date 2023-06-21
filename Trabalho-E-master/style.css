@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Condensed&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,7 +10,8 @@
   }
 
   body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     background-image: url(imagens/madeira.jpg);
     
   }
@@ -24,20 +26,19 @@
   }
 
   main {
-    margin-top: 50px; /* Ajuste o valor de acordo com a altura do navbar */
+    margin-top: 50px;
 }
   .logo {
     margin-right: auto;
   }
 
   .logo img {
-    width: 30%;
+    width: 25%;
   }
   
   /* ================================== Nav ================================== */
   .nav__links a{
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
     color: #edf0f1;
     text-decoration: none;
   }
@@ -79,29 +80,17 @@
     background-image: url(imagens/black-mamba.png);
     }
 
-    .text {
-      border-right: 2px solid rgba(255, 255, 255, 0.75);
-      width: 90%;
-      max-width: 800px;
-      position:absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      font-size: 16px;
-      color: white;
-      opacity: 0;
-      white-space: normal;
-      overflow: auto;
-      display: flex;
-      align-items: center;
+  .texto {
+    color: white;
+    width: 90%;
+    max-width: 800px;      
+    position:absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 26px;
     }
-  
-  .text.active {
-    opacity: 1;
-    transform: translateX(50px);
-    border-right-color: transparent;
-  }
   /* ================================== /Inicio ================================== */
 
   /* ================================== Sobre ================================== */
@@ -115,7 +104,14 @@
     background-image: url("imagens/01_celina_e_camilo_20151129_0008.JPG");
     background-size: 100vw;
     background-repeat: no-repeat;
+    font-size: 18px;
+    line-height: 1.5;
 }
+
+  .sobre p:before {
+    content: "➤ ";
+    margin-right: 5px;
+  }
 
   .overlay {
     position: absolute;
@@ -186,21 +182,21 @@
   
   .arrow {
     width: 40px;
-    height: 40px;
-    background-color: #ccc;
+    height: 49px;
+    background-color: transparent;
     cursor: pointer;
   }
   
   .left-arrow {
-    background-image: url('seta_esquerda.png');
+    background-image: url(imagens/seta_esquerda.png);
     background-repeat: no-repeat;
     background-position: center;
   }
   
   .right-arrow {
-    background-image: url('seta_direita.png');
+    background-image: url(imagens/seta_direita.png);
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
   }
   
 
