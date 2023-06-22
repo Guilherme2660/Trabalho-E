@@ -12,7 +12,7 @@
   body{
     font-family: 'Dancing Script', cursive;
     font-family: 'Roboto Condensed', sans-serif;
-    background-image: url(imagens/madeira.jpg);
+    background-color: #f7f7f5;
     
   }
 
@@ -176,9 +176,10 @@
   }
   
   .slides {
-    display: flex;
+    display:flex;
     transition: transform 0.3s ease;
     align-items: center; /* Centraliza verticalmente os slides */
+    
   }
   
   .slide {
@@ -188,7 +189,7 @@
   }
   
   .slide img {
-    width: 1000px;
+    width: 40%;
     height: auto; 
   }
   
@@ -281,10 +282,11 @@
       font-size: 14px;
     }
     .slide img {
-      width: 300px;
+      width: 250px;
       height: auto;
     }
-  
+
+   
     .lr {
       flex-direction: column;
     }
@@ -313,5 +315,5 @@
       justify-content: center;
       width: 100%;
     }
-  }
-  
+
+}
