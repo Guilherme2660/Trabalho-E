@@ -13,7 +13,6 @@
     font-family: 'Dancing Script', cursive;
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #f7f7f5;
-    
   }
 
   /* ================================== Header ================================== */
@@ -28,14 +27,11 @@
   main {
     margin-top: 50px;
 }
-  .logo {
+
+  header img {
     margin-right: auto;
+    width: 5vw;
   }
-
-  .logo img {
-    width: 25%;
-  }
-
   /* ================================== Footer ================================== */
   footer {
     background-color: #000000;
@@ -58,7 +54,7 @@
   .footer-left p{
     color: #ffffff;
   }
-  
+  /* ================================== /Footer ================================== */
   /* ================================== Nav ================================== */
   .nav__links a{
     font-family: "Montserrat", sans-serif;
@@ -90,14 +86,13 @@
   
   /* ================================== /Nav ================================== */
   /* ================================== /Header ================================== */
-  
   /* ================================== Inicio ================================== */
   .inicio{
     position: relative;
   }
 
   .inicio{
-    width: 100vw;
+    width: 100%;
     height: 50vh;
     background-color: black;
     background-image: url(imagens/black-mamba.png);
@@ -115,12 +110,11 @@
     font-size: 26px;
     }
   /* ================================== /Inicio ================================== */
-
   /* ================================== Sobre ================================== */
   .sobre {
     display: grid;
     place-items: center;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
@@ -168,8 +162,8 @@
   .rectangle:hover {
     background-color: rgba(0, 0, 0, 0.9);
   }
-  /* ================================== /carrosel ================================== */
-  
+  /* ================================== /Sobre ================================== */
+  /* ================================== Carrosel ================================== */
   .carousel {
     position: relative;
     overflow: hidden;
@@ -179,7 +173,6 @@
     display:flex;
     transition: transform 0.3s ease;
     align-items: center; /* Centraliza verticalmente os slides */
-    
   }
   
   .slide {
@@ -192,7 +185,6 @@
     width: 40%;
     height: auto; 
   }
-  
   
   .controls {
     position: absolute;
@@ -215,23 +207,18 @@
   .left-arrow {
     background-image: url(imagens/seta_esquerda.png);
     background-repeat: no-repeat;
-    background-position: center;
   }
   
   .right-arrow {
     background-image: url(imagens/seta_direita.png);
     background-repeat: no-repeat;
-    /* background-position: center; */
   }
-
    /* ================================== /carrosel ================================== */
-  
-
   /* ================================== Mapa e Redes ================================== */
   .lr{
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
     background-color: black;
     background-image: url(imagens/black-mamba.png);
   }
@@ -246,6 +233,8 @@
   .localiza h1{
     margin: 40px;
     color: white;
+    display: flex;
+    justify-content: center;
   }
 
   .mapa{
@@ -273,6 +262,7 @@
 
   .redes a:last-child{
     margin-top: 10px;
+    margin-bottom: 15px;
   }
   
   @media screen and (max-width: 600px) {
@@ -286,7 +276,6 @@
       height: auto;
     }
 
-   
     .lr {
       flex-direction: column;
     }
@@ -315,5 +304,5 @@
       justify-content: center;
       width: 100%;
     }
-
-}
+  }
+  /* ================================== /Mapa e Redes ================================== */
