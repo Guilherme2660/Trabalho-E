@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Condensed&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Condensed&display=swap'); */
 
 * {
   box-sizing: border-box;
@@ -11,9 +11,10 @@
 }
 
 body {
-  font-family: 'Dancing Script', cursive;
-  font-family: Snell Roundhand, cursive
-  background-color: #f7f7f5;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: Snell Roundhand, cursive;
+  background-color: #ccb299;
+  background-image: url(imagens/fundo.png);
 }
 
 /* ================================== Header ================================== */
@@ -65,15 +66,10 @@ nav img {
 /* ================================== /Nav ================================== */
 /* ================================== /Header ================================== */
 /* ================================== Inicio ================================== */
-.inicio {
-  position: relative;
-}
-
-.inicio {
+.sobre {
   width: 100%;
   height: 50vh;
-  background-color: black;
-  background-image: url(imagens/black-mamba.png);
+  position: relative;
 }
 
 .texto {
@@ -81,16 +77,17 @@ nav img {
   width: 90%;
   max-width: 800px;
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   font-size: 26px;
+  color: #000000;
 }
 
 /* ================================== /Inicio ================================== */
-/* ================================== Sobre ================================== */
-.sobre {
+/* ================================== Local ================================== */
+.local {
   display: grid;
   place-items: center;
   width: 100%;
@@ -104,7 +101,7 @@ nav img {
   line-height: 1.5;
 }
 
-.sobre p:before {
+.local p:before {
   content: "➤ ";
   margin-right: 5px;
 }
@@ -142,7 +139,7 @@ nav img {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* ================================== /Sobre ================================== */
+/* ================================== /Local ================================== */
 /* ================================== Carrosel ================================== */
 .carousel {
   position: relative;
@@ -153,13 +150,14 @@ nav img {
   display: flex;
   justify-content: center;
   margin: 30px 0 10px 0;
+  font-size: 34px;
 }
 
 .slides {
   display: flex;
   transition: transform 0.3s ease;
   align-items: center;
-  /* Centraliza verticalmente os slides */
+  /* margin-bottom: 50px; */
 }
 
 .slide {
@@ -207,8 +205,8 @@ nav img {
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: black;
-  background-image: url(imagens/black-mamba.png);
+  /* background-color: rgb(221, 221, 221); */
+  /* background-image: url(imagens/black-mamba.png); */
 }
 
 .localiza {
@@ -220,7 +218,7 @@ nav img {
 
 .localiza h1 {
   margin: 40px;
-  color: white;
+  color: black;
   display: flex;
   justify-content: center;
 }
@@ -239,7 +237,7 @@ nav img {
 }
 
 .redes h1 {
-  color: white;
+  color: black;
   margin: 40px;
   margin-bottom: 20px;
 }
@@ -275,5 +273,11 @@ footer {
 
 .footer-left p {
   color: #ffffff;
+}
+
+@media screen and (min-width:768px) {
+  .footer-left p:nth-child(2){
+    display: none;
+  }
 }
 /* ================================== /Footer ================================== */

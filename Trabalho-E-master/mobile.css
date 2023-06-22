@@ -2,10 +2,11 @@
     width: 8vw;
 }
 
-.sobre {
+.local {
     grid-template-columns: 1fr;
     height: 100%;
     margin-bottom: 30px;
+    background-image: none;
 }
 
 .rectangle-container {
@@ -61,6 +62,10 @@
 
     .slide img {
         width: 70%;
+    }
+
+    .footer-left p:first-child{
+        display: none;
     }
 }
 
