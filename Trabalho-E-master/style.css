@@ -35,6 +35,29 @@
   .logo img {
     width: 25%;
   }
+
+  /* ================================== Footer ================================== */
+  footer {
+    background-color: #000000;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-left p,
+  .footer-right p {
+    margin: 0;
+  }
+  
+  .footer-right a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .footer-left p{
+    color: #ffffff;
+  }
   
   /* ================================== Nav ================================== */
   .nav__links a{
@@ -165,10 +188,10 @@
   }
   
   .slide img {
-    max-width: 100%;
-    height: auto;
-    
+    width: 1000px;
+    height: auto; 
   }
+  
   
   .controls {
     position: absolute;
@@ -199,6 +222,8 @@
     background-repeat: no-repeat;
     /* background-position: center; */
   }
+
+   /* ================================== /carrosel ================================== */
   
 
   /* ================================== Mapa e Redes ================================== */
@@ -255,4 +280,38 @@
       max-width: 400px;
       font-size: 14px;
     }
+    .slide img {
+      width: 300px;
+      height: auto;
+    }
+  
+    .lr {
+      flex-direction: column;
+    }
+  
+    .localiza {
+      margin-bottom: 20px;
+      align-items: center;
+      display: contents;
+    }
+
+    .localiza h1{
+      margin: 40px;
+      color: white;
+       
+    }
+  
+    .mapa {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-left: auto;
+    }
+  
+    .redes {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
   }
+  
