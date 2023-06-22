@@ -1,0 +1,71 @@
+.logo {
+    width: 8vw;
+}
+
+.sobre {
+    grid-template-columns: 1fr;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.rectangle-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.rectangle {
+    width: 80%;
+    height: auto;
+    margin: 2vw;
+    margin-left: 0;
+}
+
+.carousel h1{
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .text {
+        width: 90%;
+        max-width: 400px;
+        font-size: 14px;
+        }
+
+    .slide img {
+        width: 250px;
+        height: auto;
+    }
+
+    .lr {
+        flex-direction: column;
+    }
+
+    .localiza {
+        margin-bottom: 20px;
+        align-items: center;
+        display: contents;
+    }
+
+    .mapa {
+        width: 100%;
+    }
+
+    .redes {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .slide img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    header img {
+        display: none;
+    }
+}
