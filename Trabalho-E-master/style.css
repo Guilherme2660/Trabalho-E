@@ -238,12 +238,11 @@ nav img {
 }
 
 .redes img {
-  margin: 15px;
+  margin: 18px;
 }
 
 .redes a:last-child {
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-top: -12px;
 }
 
 /* ================================== /Mapa e Redes ================================== */
