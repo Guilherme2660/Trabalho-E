@@ -13,7 +13,7 @@ let currentIndex = 0;
 
 // Função para mover os slides
 function moveSlides() {
-  const translateX = -currentIndex * (slideWidth + slideMargin);
+  const translateX = -currentIndex * (slideWidth );
   slidesContainer.style.transform = `translateX(${translateX}px)`;
 }
 
