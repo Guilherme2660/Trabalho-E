@@ -81,7 +81,6 @@ nav img {
   transform: translate(-50%, -50%);
   text-align: center;
   font-size: 30px;
-  color: #000000;
 }
 
 /* ================================== /Inicio ================================== */
@@ -96,7 +95,7 @@ nav img {
   background-image: url("imagens/imagem3.jpg");
   background-size: 100vw;
   background-repeat: no-repeat;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.5;
 }
 
@@ -150,6 +149,7 @@ nav img {
   justify-content: center;
   margin: 30px 0 10px 0;
   font-size: 34px;
+  color: white;
 }
 
 .slides {
@@ -172,7 +172,6 @@ nav img {
 .controls {
   position: absolute;
   top: 50%;
-  /* transform: translateY(-50%); */
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -203,8 +202,6 @@ nav img {
   display: flex;
   flex-direction: row;
   width: 100%;
-  /* background-color: rgb(221, 221, 221); */
-  /* background-image: url(imagens/black-mamba.png); */
 }
 
 .localiza {
@@ -216,7 +213,7 @@ nav img {
 
 .localiza h1 {
   margin: 40px;
-  color: black;
+  color: white;
   display: flex;
   justify-content: center;
 }
@@ -235,7 +232,7 @@ nav img {
 }
 
 .redes h1 {
-  color: black;
+  color: white;
   margin: 40px;
   margin-bottom: 20px;
 }
