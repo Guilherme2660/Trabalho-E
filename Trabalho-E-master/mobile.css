@@ -73,4 +73,8 @@
     header img {
         display: none;
     }
+
+    .texto{
+        font-size: 24px;
+    }
 }
