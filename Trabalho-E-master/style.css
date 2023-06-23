@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Condensed&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Condensed&display=swap');
 
 * {
   box-sizing: border-box;
@@ -11,8 +11,7 @@
 }
 
 body {
-  /* font-family: 'Dancing Script', cursive; */
-  font-family: Snell Roundhand, cursive;
+  font-family: 'Dancing Script', cursive;
   background-color: #b0b0b0;
   background-image: url(imagens/diagmonds.png);
 }
@@ -81,7 +80,7 @@ nav img {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 26px;
+  font-size: 30px;
   color: #000000;
 }
 
@@ -94,7 +93,7 @@ nav img {
   height: 90vh;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  background-image: url("imagens/01_celina_e_camilo_20151129_0008.JPG");
+  background-image: url("imagens/imagem3.jpg");
   background-size: 100vw;
   background-repeat: no-repeat;
   font-size: 18px;
@@ -157,7 +156,6 @@ nav img {
   display: flex;
   transition: transform 0.3s ease;
   align-items: center;
-  /* margin-bottom: 50px; */
 }
 
 .slide {
@@ -174,7 +172,7 @@ nav img {
 .controls {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
   width: 100%;
   display: flex;
   justify-content: space-between;
